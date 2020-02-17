@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OODP_Adapter
 {
-    interface Target
+    interface ITarget
     {
         string CompatibleOperation();
     }

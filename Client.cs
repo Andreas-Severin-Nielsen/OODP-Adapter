@@ -11,12 +11,12 @@ namespace OODP_Adapter
         public void RunTask()
         {
             // ObjectAdapter: creating and configuring the object adapter...
-            Target objectAdapter = new ObjectAdapter(new Adaptee());
+            ITarget objectAdapter = new ObjectAdapter(new Adaptee());
             // ObjectAdapter: performing the incompatible operation...
             Console.WriteLine("Using ObjectAdapter: " + objectAdapter.CompatibleOperation());
 
             // ClassAdapter: creating the class adapter...
-            Target classAdapter = new ClassAdapter();
+            ITarget classAdapter = new ClassAdapter();
             // ClassAdapter: performing the incompatible operation...
             Console.WriteLine("Using ClassAdapter: " + classAdapter.CompatibleOperation());
         }

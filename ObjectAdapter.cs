@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OODP_Adapter
 {
-    class ObjectAdapter : Target
+    class ObjectAdapter : ITarget
     {
         private Adaptee adaptee;
 

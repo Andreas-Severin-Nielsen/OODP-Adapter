@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OODP_Adapter
 {
-    class ClassAdapter : Adaptee, Target
+    class ClassAdapter : Adaptee, ITarget
     {
         public string CompatibleOperation()
         {
